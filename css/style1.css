@@ -29,7 +29,12 @@
 	margin: 0;
 	padding-bottom: 20px;
 	transition: opacity .4s ease-in-out;
-	column-break-inside: avoid;
+
+	/* TODO: Firefox won't eat it. So far only webkit working */
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+
 	display: inline-block;
 	width: 100%;
 }
