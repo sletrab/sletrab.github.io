@@ -1,0 +1,17 @@
+/* CSS regarding the second task */
+
+.gallery {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gallery figure {
+    position: absolute;
+    padding: 10px;
+    width: 250px;
+}
+
+.gallery figure img {
+    width: 100%;
+}
