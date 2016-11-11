@@ -11,7 +11,7 @@ var setupElements = function () {
     var containerWidth = $container.width();
     var elementWidth = $('.gallery figure').outerWidth();   
     var margin = 20;     
-    var colCount = Math.floor(containerWidth / ( elementWidth + margin ));
+    var colCount = Math.floor(containerWidth / ( elementWidth + margin * 2));
 
     var elements = [];
 
